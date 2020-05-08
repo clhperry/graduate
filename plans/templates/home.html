@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Plans</title>
+  </head>
+  <body class="mx-4">
+    <h1>Plans</h1>
+    <input type="button" class = "mb-3" onclick="location.href = 'http://localhost:8000';" value="Home"/>
+
+    <form>
+    <!--
+      <div class="form-group">
+        <label for="Year">Year</label>
+        <select class="form-control" id="Year">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="Major_1">First Major</label>
+        <select class="form-control" id="Major_1">
+          <option>ACCT</option>
+          <option>AE</option>
+          <option>BCB</option>
+          <option>BEGBM</option>
+          <option>BIBU</option>
+          <option>BIEN</option>
+          <option>BIOT</option>
+          <option>BISC</option>
+          <option>BTGBM</option>
+          <option>CEEV</option>
+          <option>CEGBM</option>
+          <option>CENG</option>
+          <option>CHEM</option>
+          <option>CIEV</option>
+          <option>CIGBM</option>
+          <option>CIVL</option>
+          <option>COGBM</option>
+          <option>COMP</option>
+          <option>COSC</option>
+          <option>CPEG</option>
+          <option>CPGBM</option>
+          <option>CVGBM</option>
+          <option>DA</option>
+          <option>DAGBM</option>
+          <option>DSCT</option>
+          <option>ECOF</option>
+          <option>ECON</option>
+          <option>EEGBM</option>
+          <option>ELEC</option>
+          <option>EVMT</option>
+          <option>FINA</option>
+          <option>GBM</option>
+          <option>GBUS</option>
+          <option>GCS</option>
+          <option>IEEM</option>
+          <option>IEGBM</option>
+          <option>IIM</option>
+          <option>IS</option>
+          <option>ISDN</option>
+          <option>MAEC</option>
+          <option>MARK</option>
+          <option>MATH</option>
+          <option>MECH</option>
+          <option>MEGBM</option>
+          <option>MGMT</option>
+          <option>OM</option>
+          <option>OST</option>
+          <option>PHYS</option>
+          <option>QFIN</option>
+          <option>QSA</option>
+          <option>RMBI</option>
+          <option>SUSEE</option>
+          <option>WBB</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="Major_2">Second Major</label>
+        <select class="form-control" id="Major_2">
+          <option>N/A</option>
+          <option>ACCT</option>
+          <option>AE</option>
+          <option>BCB</option>
+          <option>BEGBM</option>
+          <option>BIBU</option>
+          <option>BIEN</option>
+          <option>BIOT</option>
+          <option>BISC</option>
+          <option>BTGBM</option>
+          <option>CEEV</option>
+          <option>CEGBM</option>
+          <option>CENG</option>
+          <option>CHEM</option>
+          <option>CIEV</option>
+          <option>CIGBM</option>
+          <option>CIVL</option>
+          <option>COGBM</option>
+          <option>COMP</option>
+          <option>COSC</option>
+          <option>CPEG</option>
+          <option>CPGBM</option>
+          <option>CVGBM</option>
+          <option>DA</option>
+          <option>DAGBM</option>
+          <option>DSCT</option>
+          <option>ECOF</option>
+          <option>ECON</option>
+          <option>EEGBM</option>
+          <option>ELEC</option>
+          <option>EVMT</option>
+          <option>FINA</option>
+          <option>GBM</option>
+          <option>GBUS</option>
+          <option>GCS</option>
+          <option>IEEM</option>
+          <option>IEGBM</option>
+          <option>IIM</option>
+          <option>IS</option>
+          <option>ISDN</option>
+          <option>MAEC</option>
+          <option>MARK</option>
+          <option>MATH</option>
+          <option>MECH</option>
+          <option>MEGBM</option>
+          <option>MGMT</option>
+          <option>OM</option>
+          <option>OST</option>
+          <option>PHYS</option>
+          <option>QFIN</option>
+          <option>QSA</option>
+          <option>RMBI</option>
+          <option>SUSEE</option>
+          <option>WBB</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="Minor_1">First Minor</label>
+        <select class="form-control" id="Major_1">
+          <option>N/A</option>
+          <option>ACTM</option>
+          <option>AERO</option>
+          <option>ASCO</option>
+          <option>BDT</option>
+          <option>BIEN</option>
+          <option>BIOT</option>
+          <option>BIPH</option>
+          <option>BISC</option>
+          <option>BUS</option>
+          <option>CHEM</option>
+          <option>CS</option>
+          <option>DESN</option>
+          <option>ENTR</option>
+          <option>ENVS</option>
+          <option>ESM</option>
+          <option>HUMA</option>
+          <option>IT</option>
+          <option>MATH</option>
+          <option>PBS</option>
+          <option>PHYS</option>
+          <option>ROBO</option>
+          <option>SOSC</option>
+          <option>SUSEE</option>
+          <option>TM</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="Minor_2">Second Minor</label>
+        <select class="form-control" id="Major_1">
+          <option>N/A</option>
+          <option>ACTM</option>
+          <option>AERO</option>
+          <option>ASCO</option>
+          <option>BDT</option>
+          <option>BIEN</option>
+          <option>BIOT</option>
+          <option>BIPH</option>
+          <option>BISC</option>
+          <option>BUS</option>
+          <option>CHEM</option>
+          <option>CS</option>
+          <option>DESN</option>
+          <option>ENTR</option>
+          <option>ENVS</option>
+          <option>ESM</option>
+          <option>HUMA</option>
+          <option>IT</option>
+          <option>MATH</option>
+          <option>PBS</option>
+          <option>PHYS</option>
+          <option>ROBO</option>
+          <option>SOSC</option>
+          <option>SUSEE</option>
+          <option>TM</option>
+        </select>
+      </div>
+    -->
+
+      <div class="form-group">
+        <input type="button" class = "mr-1" onclick="location.href = 'acct.html';" value="ACCT"/>
+        <input type="button" class = "mx-1" onclick="location.href = 'ecof.html';" value="ECOF"/>
+        <input type="button" class = "mx-1" onclick="location.href = 'econ.html';" value="ECON"/>
+        <input type="button" class = "mx-1" onclick="location.href = 'fina.html';" value="FINA"/>
+        <input type="button" class = "mx-1" onclick="location.href = 'gbus.html';" value="GBUS"/>
+        <input type="button" class = "mx-1" onclick="location.href = 'is.html';" value="IS"/>
+        <input type="button" class = "mx-1" onclick="location.href = 'mark.html';" value="MARK"/>
+        <input type="button" class = "mx-1" onclick="location.href = 'mgmt.html';" value="MGMT"/>
+        <input type="button" class = "mx-1" onclick="location.href = 'om.html';" value="OM"/>
+        <input type="button" class = "mx-1" onclick="location.href = 'qfin.html';" value="QFIN"/>
+      </div>
+    </form>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
