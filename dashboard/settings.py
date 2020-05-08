@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 import django_heroku
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,6 +27,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', "70dfce875d7337e9b1b2c87e2401f8539c988
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
+#connect Heroku Database with Django
+DATABASES = { 'default': dj_database_url.config(conn_max_age=600, ssl_require=True) }
 
 ALLOWED_HOSTS = ['ustgraduate.herokuapp.com', 'localhost']
 
