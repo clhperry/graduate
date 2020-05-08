@@ -7,9 +7,9 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Course
 
 
-class Index(LoginRequiredMixin, View):
+class Index(View):
     template = 'index.html'
-    login_url = '/login/'
+    #login_url = '/login/'
     
     def get(self, request):
         courses = Course.objects.all()
@@ -33,3 +33,5 @@ class Login(View):
             return HttpResponseRedirect('/')
         else:
             return render(request, self.template, {'form': form})
+
+'''LoginRequiredMixin, '''
