@@ -1,7 +1,6 @@
 alabaster==0.7.12
 appdirs==1.4.3
 appnope==0.1.0
-appscript==1.0.1
 asgiref==3.2.7
 asn1crypto==1.0.1
 astroid==2.3.1
@@ -50,7 +49,6 @@ fsspec==0.5.2
 future==0.18.2
 gevent==1.4.0
 glob2==0.7
-gmpy2==2.0.8
 greenlet==0.4.15
 gunicorn==20.0.4
 h5py==2.9.0
@@ -136,7 +134,6 @@ pycurl==7.43.0.3
 pyflakes==2.1.1
 Pygments==2.4.2
 pylint==2.4.2
-pyodbc==4.0.27
 pyOpenSSL==19.0.0
 pyparsing==2.4.2
 pyrsistent==0.15.4
