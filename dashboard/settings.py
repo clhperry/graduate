@@ -133,3 +133,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 django_heroku.settings(locals())
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
